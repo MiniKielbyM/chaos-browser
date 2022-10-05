@@ -7,5 +7,9 @@ html {
   width: 45%;
   height: 28px;
   border-radius: 25px;
+  background-color: #202020;
+  border-color: #a40000;
+  padding: 0.0001px 20px;
+  box-sizing: border-box;
 }
 
