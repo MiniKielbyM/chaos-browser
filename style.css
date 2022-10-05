@@ -4,4 +4,8 @@ html {
 
 #search {
   margin-top: 3in;
+  width: 45%;
+  height: 28px;
+  border-radius: 25px;
 }
+
