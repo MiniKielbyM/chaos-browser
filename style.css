@@ -7,9 +7,19 @@ html {
   width: 45%;
   height: 35px;
   border-radius: 25px;
-  background-color: #202020;
+  background-color: #151515;
   border-color: #a40000;
   padding: 0.0001px 20px;
   box-sizing: border-box;
+  color: #959595;
 }
 
+#search:hover {
+border-color: #d90000;
+}
+
+#search:focus {
+  border-color: #fb0000;
+  outline: none;
+  color: #959595;
+}
