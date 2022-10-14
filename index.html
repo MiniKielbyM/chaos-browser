@@ -9,11 +9,17 @@
   
   <body>
     <script> 
-      function SayHi() {
-        alert("hi")
+      function Search() {
+        const sb = document.getElementById("search");
+        const google = "https://www.google.com/search?q=";
+        function search()
+        {
+           const searchVal = google + sb.value;
+           window.open(searchVal, "_blank")
+        }
       }
     </script>
     <input placeholder="search the web or type a URL" id="search"> 
-    <button onclick="SayHi();" id="searchBtn">search</button>
+    <button onclick="Search();" id="searchBtn">search</button>
   </body>
 </html>
