@@ -1,4 +1,5 @@
 <html>
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -6,21 +7,64 @@
     <link rel="icon" type="image/x-icon" href="1j+ojVVCOMkX9Wyrexe4hGe..-removebg-preview.png">
     <link href="style.css" rel="stylesheet" type="text/css">
   </head>
-  
+
   <body>
-    <script>"use strict";
-      !function() {
-      var t = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNGViNzQ5MjRmM2ExNTdmYzliNGQ1OSIsInRva2VuVHlwZSI6InB1YmxpYyIsImlhdCI6MTY2NjEwMzExNywiZXhwIjoxNDI4MDUwMzExN30.1SUAtw7gmQk2pih71dY3L0b6A-mYr5Wl5wi47EcyW4I";
-      function e() {
-        var e = document.createElement("script"), a = navigator.language || navigator.userLanguage;
-        e.type = "text/javascript", e.async = !0, e.src = "https://api.searchbar.org/v1/widget/" + t + "/" + a;
-        var n = document.getElementsByTagName("script")[0];
-        n.parentNode.insertBefore(e, n);
-      }
-      "complete" === document.readyState ? e() : window.attachEvent ? window.attachEvent("onload", e) : window.addEventListener("load", e, !1);
+    <script type="text/javascript" async="" src="https://api.searchbar.org/v1/widget/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNGViNzQ5MjRmM2ExNTdmYzliNGQ1OSIsInRva2VuVHlwZSI6InB1YmxpYyIsImlhdCI6MTY2NjEwMzExNywiZXhwIjoxNDI4MDUwMzExN30.1SUAtw7gmQk2pih71dY3L0b6A-mYr5Wl5wi47EcyW4I/en-US"></script>
+    <script>
+      "use strict";
+      ! function() {
+        var t = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNGViNzQ5MjRmM2ExNTdmYzliNGQ1OSIsInRva2VuVHlwZSI6InB1YmxpYyIsImlhdCI6MTY2NjEwMzExNywiZXhwIjoxNDI4MDUwMzExN30.1SUAtw7gmQk2pih71dY3L0b6A-mYr5Wl5wi47EcyW4I";
+
+        function e() {
+          var e = document.createElement("script"),
+            a = navigator.language || navigator.userLanguage;
+          e.type = "text/javascript", e.async = !0, e.src = "https://api.searchbar.org/v1/widget/" + t + "/" + a;
+          var n = document.getElementsByTagName("script")[0];
+          n.parentNode.insertBefore(e, n);
+        }
+        "complete" === document.readyState ? e() : window.attachEvent ? window.attachEvent("onload", e) : window.addEventListener("load", e, !1);
       }();
+
     </script>
-    <input placeholder="search the web or type a URL" id="search"> 
+    <input placeholder="search the web or type a URL" id="search">
     <button onclick="Search();" id="searchBtn">search</button>
+
+
+    <div id="sb-search" class="sb-dark-auto">
+      <meta charset="UTF-8">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&amp;display=swap" rel="stylesheet" type="text/css">
+      <div class="sb-modal sb-animate-bottom" id="sb-modal">
+        <div class="sb-content">
+          <div class="sb-search">
+            <div class="sb-input"><i class="sb-icon sb-back-icon icon-ic_back"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.2071 6.70711C11.5976 6.31658 11.5976 5.68342 11.2071 5.29289C10.8166 4.90237 10.1834 4.90237 9.79289 5.29289L4.29289 10.7929C3.90237 11.1834 3.90237 11.8166 4.29289 12.2071L9.79289 17.7071C10.1834 18.0976 10.8166 18.0976 11.2071 17.7071C11.5976 17.3166 11.5976 16.6834 11.2071 16.2929L7.41421 12.5H19C19.5523 12.5 20 12.0523 20 11.5C20 10.9477 19.5523 10.5 19 10.5H7.41421L11.2071 6.70711Z" fill="black"></path>
+                </svg> </i><input class="sb-search-field" id="sb-search-field" name="Search" placeholder="Search..." type="search" autocomplete="off">
+              <div class="sb-search-icon"><i class="sb-icon icon-ic_search"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 16C13.7614 16 16 13.7614 16 11C16 8.23858 13.7614 6 11 6C8.23858 6 6 8.23858 6 11C6 13.7614 8.23858 16 11 16ZM3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11C19 12.6671 18.4901 14.215 17.6178 15.4964L21.5607 19.4393C22.1464 20.0251 22.1464 20.9749 21.5607 21.5607C20.9749 22.1464 20.0251 22.1464 19.4393 21.5607L15.4964 17.6178C14.215 18.4901 12.6671 19 11 19C6.58172 19 3 15.4183 3 11Z" fill="black"></path>
+                  </svg></i></div>
+            </div>
+          </div>
+          <div class="sb-results">
+            <div class="sb-results-block sb-pages sb-list">
+              <div class="sb-results-items"></div>
+            </div>
+            <div class="sb-brand"><a href="https://www.searchbar.org"><span>Powered by</span><img alt="" src="https://api.searchbar.org/img/logo.svg"></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="sb-search-icon float sb-animate-zoom" id="sb-wrapper"><i class="sb-icon icon-ic_search"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 16C13.7614 16 16 13.7614 16 11C16 8.23858 13.7614 6 11 6C8.23858 6 6 8.23858 6 11C6 13.7614 8.23858 16 11 16ZM3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11C19 12.6671 18.4901 14.215 17.6178 15.4964L21.5607 19.4393C22.1464 20.0251 22.1464 20.9749 21.5607 21.5607C20.9749 22.1464 20.0251 22.1464 19.4393 21.5607L15.4964 17.6178C14.215 18.4901 12.6671 19 11 19C6.58172 19 3 15.4183 3 11Z" fill="black"></path>
+          </svg></i></div>
+      <div class="sb-content sb-hero sb-hiden" id="sb-wrapperHero">
+        <div class="sb-search">
+          <div class="sb-input"><input class="sb-search-field" name="Search" placeholder="Search..." type="search" autocomplete="off">
+            <div class="sb-search-icon"><i class="sb-icon icon-ic_search"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 16C13.7614 16 16 13.7614 16 11C16 8.23858 13.7614 6 11 6C8.23858 6 6 8.23858 6 11C6 13.7614 8.23858 16 11 16ZM3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11C19 12.6671 18.4901 14.215 17.6178 15.4964L21.5607 19.4393C22.1464 20.0251 22.1464 20.9749 21.5607 21.5607C20.9749 22.1464 20.0251 22.1464 19.4393 21.5607L15.4964 17.6178C14.215 18.4901 12.6671 19 11 19C6.58172 19 3 15.4183 3 11Z" fill="black"></path>
+                </svg></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
+
 </html>
