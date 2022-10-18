@@ -8,16 +8,17 @@
   </head>
   
   <body>
-    <script> 
-      function Search() {
-        const sb = document.getElementById("search");
-        const google = "https://www.google.com/search?q=";
-        function search()
-        {
-           const searchVal = google + sb.value;
-           window.open("http://www.google.com","_self")
-        }
+    <script>"use strict";
+      !function() {
+      var t = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNGViNzQ5MjRmM2ExNTdmYzliNGQ1OSIsInRva2VuVHlwZSI6InB1YmxpYyIsImlhdCI6MTY2NjEwMzExNywiZXhwIjoxNDI4MDUwMzExN30.1SUAtw7gmQk2pih71dY3L0b6A-mYr5Wl5wi47EcyW4I";
+      function e() {
+        var e = document.createElement("script"), a = navigator.language || navigator.userLanguage;
+        e.type = "text/javascript", e.async = !0, e.src = "https://api.searchbar.org/v1/widget/" + t + "/" + a;
+        var n = document.getElementsByTagName("script")[0];
+        n.parentNode.insertBefore(e, n);
       }
+      "complete" === document.readyState ? e() : window.attachEvent ? window.attachEvent("onload", e) : window.addEventListener("load", e, !1);
+      }();
     </script>
     <input placeholder="search the web or type a URL" id="search"> 
     <button onclick="Search();" id="searchBtn">search</button>
